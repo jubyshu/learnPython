@@ -1,4 +1,4 @@
-# bubble sort 冒泡查找
+# bubble sort 冒泡排序
 def bubble_sort(li):
     for i in range(len(li) - 1):  # 排 n-1 趟
         for j in range(len(li) - i - 1):  # 无序区
@@ -6,7 +6,7 @@ def bubble_sort(li):
                 li[j], li[j + 1] = li[j + 1], li[j]
 
 
-# 冒牌排序优化
+# 冒泡排序优化
 def bubble_sort_opt(li):
     for i in range(len(li) - 1):  # 排 n-1 趟
         exchange = False
